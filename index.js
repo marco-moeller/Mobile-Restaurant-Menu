@@ -117,7 +117,7 @@ const renderMenu = () => {
     .map((menuItem) => {
       const { name, ingredients, id, price, emoji } = menuItem;
       return ` <div class="menu-items-container">
-    <img src="${name.toLowerCase()}.jpg" alt="menu item" class="menu-item" />
+    <img src="/assets/${name.toLowerCase()}.jpg" alt="menu item" class="menu-item" />
     <div class="menu-text-container">
     <h2>${name}</h2>
     <p>${ingredients.join(", ")}</p>
