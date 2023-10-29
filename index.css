@@ -111,7 +111,7 @@ button:hover {
 /* Layout */
 
 header {
-  background-image: url("images/header.jpg");
+  background-image: url("assets/header.jpg");
   background-size: cover;
   height: 167px;
   color: white;
