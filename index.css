@@ -193,7 +193,6 @@ section {
   display: flex;
   width: 524px;
   height: 524px;
-  text-align: center;
   border: 1px solid black;
   border-radius: 5px;
   position: fixed;
@@ -207,17 +206,18 @@ section {
 }
 
 form {
+  text-align: center;
   width: 100%;
   padding: 20px;
 }
 
 input {
   display: block;
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
   font-size: 23px;
   padding: 25px;
-  margin: 20px 0px;
+  margin: 20px auto;
 }
 
 /* utility */
